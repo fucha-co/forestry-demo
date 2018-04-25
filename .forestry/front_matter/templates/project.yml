@@ -2,6 +2,12 @@
 hide_body: false
 is_partial: false
 fields:
+- name: banner_image
+  label: Banner Image
+  type: file
+  description: Dimensions work best at 1200 pixels by 400 pixels
+  hidden: false
+  default: ''
 - name: sub_heading
   label: Sub Heading
   type: text
@@ -10,12 +16,6 @@ fields:
 - type: text
   name: title
   label: Title
-- name: banner_image
-  label: Banner Image
-  type: file
-  description: Dimensions work best at 1200 pixels by 400 pixels
-  hidden: false
-  default: ''
 - name: tags
   label: Tags
   type: tag_list
